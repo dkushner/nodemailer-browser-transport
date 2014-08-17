@@ -1,15 +1,31 @@
 {
   "name": "nodemailer-browser-transport",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A nodemailer transport that opens sent mail in the browser!",
-  "main": "index.js",
+  "main": "src/browser-transport.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Dave Kushner",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "dependencies": {
     "open": "0.0.5",
     "nodemailer-wellknown": "~0.1.2"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "sinon": "~1.10.3",
+    "gulp": "~3.8.7",
+    "gulp-mocha": "~1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dkushner/nodemailer-browser-transport.git"
+  },
+  "keywords": [
+    "Nodemailer"
+  ],
+  "bugs": {
+    "url": "https://github.com/dkushner/nodemailer-browser-transport/issues"
   }
 }
