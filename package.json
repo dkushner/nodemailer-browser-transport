@@ -1,0 +1,15 @@
+{
+  "name": "nodemailer-browser-transport",
+  "version": "0.0.0",
+  "description": "A nodemailer transport that opens sent mail in the browser!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dave Kushner",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "open": "0.0.5",
+    "nodemailer-wellknown": "~0.1.2"
+  }
+}
