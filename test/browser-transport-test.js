@@ -3,8 +3,6 @@
 var chai = require('chai');
 var expect = chai.expect;
 var sinon = require('sinon');
-var test = require('selenium-webdriver/testing');
-var webdriver = require('selenium-webdriver');
 var BrowserTransport = require('../src/browser-transport');
 
 var MockBuilder = function(envelope, message) {
@@ -30,7 +28,7 @@ describe('Browser Transport', function() {
 
   it('should open message contents in browser', function(done) {
     var transport = BrowserTransport({
-      browser: 'Firefox',
+      browser: 'firefox',
       directory: '/tmp/mailers'
     });
 
