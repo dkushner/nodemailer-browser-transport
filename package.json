@@ -1,6 +1,6 @@
 {
   "name": "nodemailer-browser-transport",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A nodemailer transport that opens sent mail in the browser!",
   "main": "src/browser-transport.js",
   "scripts": {
@@ -9,8 +9,8 @@
   "author": "Dave Kushner",
   "license": "MIT",
   "dependencies": {
-    "open": "0.0.5",
-    "nodemailer-wellknown": "~0.1.2"
+    "nodemailer-wellknown": "~0.1.2",
+    "selenium-webdriver": "~2.42.1"
   },
   "devDependencies": {
     "chai": "~1.9.1",
